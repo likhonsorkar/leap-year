@@ -19,11 +19,21 @@ form {
       padding: 10%;
       }
 
-
+input[type=number], select {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 30px;
+            text-align: center;
+          }
 
 .result {
       margin-top: 20px;
-      font-size: 30px; 
+      font-size: 20px; 
       color: white;
       background-color: rgb(4, 49, 69);
       border-radius: 10px;
@@ -35,10 +45,6 @@ span {
           
       }
 
-input {
-      font-size: 20px;
-      width: fit-content;
-      }
 .btn{
   
         
